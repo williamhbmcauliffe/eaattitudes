@@ -1,0 +1,173 @@
+eainterest
+lavaan 0.6-9 ended normally after 41 iterations
+
+  Estimator                                       DWLS
+  Optimization method                           NLMINB
+  Number of model parameters                        53
+                                                      
+  Number of observations                           259
+                                                      
+Model Test User Model:
+                                              Standard      Robust
+  Test Statistic                               271.898     377.816
+  Degrees of freedom                               132         132
+  P-value (Chi-square)                           0.000       0.000
+  Scaling correction factor                                  0.848
+  Shift parameter                                           57.012
+       simple second-order correction                             
+
+Model Test Baseline Model:
+
+  Test statistic                              2815.652     997.473
+  Degrees of freedom                               153         153
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  3.153
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.947       0.709
+  Tucker-Lewis Index (TLI)                       0.939       0.663
+                                                                  
+  Robust Comparative Fit Index (CFI)                            NA
+  Robust Tucker-Lewis Index (TLI)                               NA
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.064       0.085
+  90 Percent confidence interval - lower         0.053       0.075
+  90 Percent confidence interval - upper         0.075       0.095
+  P-value RMSEA <= 0.05                          0.017       0.000
+                                                                  
+  Robust RMSEA                                                  NA
+  90 Percent confidence interval - lower                        NA
+  90 Percent confidence interval - upper                        NA
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.091       0.091
+
+Parameter Estimates:
+
+  Standard errors                           Robust.sem
+  Information                                 Expected
+  Information saturated (h1) model        Unstructured
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  expansive =~                                                          
+    ea_tttds_scl_1    1.000                               1.027    0.697
+    ea_tttds_scl_2    0.911    0.111    8.222    0.000    0.936    0.627
+    ea_tttds_scl_3    1.117    0.139    8.043    0.000    1.148    0.722
+    ea_tttds_scl_4    1.221    0.142    8.601    0.000    1.255    0.786
+    ea_tttds_scl_5    0.882    0.135    6.555    0.000    0.907    0.574
+    ea_tttds_scl_7    0.732    0.147    4.992    0.000    0.753    0.426
+  effective =~                                                          
+    effctvnss_s_19    1.000                               1.065    0.674
+    effctvnss_sc_4    1.036    0.121    8.570    0.000    1.103    0.722
+    effctvnss_sc_5    1.009    0.138    7.292    0.000    1.075    0.633
+    effctvnss_sc_6    1.085    0.128    8.490    0.000    1.156    0.747
+    effctvnss_s_15    0.934    0.120    7.792    0.000    0.995    0.705
+    effctvnss_s_18    1.119    0.131    8.551    0.000    1.192    0.782
+  behavior =~                                                           
+    ea_agreement      1.000                               0.761    0.564
+    ea_interest       1.767    0.250    7.068    0.000    1.345    0.755
+    ea_newsletter     1.045    0.155    6.756    0.000    0.796    0.796
+    ea_book           0.808    0.140    5.781    0.000    0.615    0.615
+    pledge_give10     0.917    0.138    6.630    0.000    0.698    0.698
+    change_career     0.998    0.140    7.128    0.000    0.760    0.760
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  behavior ~                                                            
+    expansive         0.480    0.070    6.817    0.000    0.648    0.648
+    effective         0.118    0.052    2.296    0.022    0.166    0.166
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  expansive ~~                                                          
+    effective         0.291    0.094    3.111    0.002    0.266    0.266
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .ea_tttds_scl_1    4.320    0.097   44.523    0.000    4.320    2.932
+   .ea_tttds_scl_2    4.170    0.097   42.954    0.000    4.170    2.795
+   .ea_tttds_scl_3    4.591    0.105   43.779    0.000    4.591    2.888
+   .ea_tttds_scl_4    4.390    0.103   42.718    0.000    4.390    2.751
+   .ea_tttds_scl_5    3.931    0.098   39.912    0.000    3.931    2.487
+   .ea_tttds_scl_7    4.815    0.129   37.250    0.000    4.815    2.727
+   .effctvnss_s_19    3.838    0.102   37.618    0.000    3.838    2.428
+   .effctvnss_sc_4    4.135    0.097   42.760    0.000    4.135    2.707
+   .effctvnss_sc_5    3.737    0.107   34.954    0.000    3.737    2.202
+   .effctvnss_sc_6    4.591    0.104   44.299    0.000    4.591    2.966
+   .effctvnss_s_15    4.884    0.099   49.099    0.000    4.884    3.459
+   .effctvnss_s_18    3.946    0.095   41.567    0.000    3.946    2.590
+   .ea_agreement      4.807    0.094   51.364    0.000    4.807    3.559
+   .ea_interest       4.100    0.113   36.381    0.000    4.100    2.302
+   .ea_newsletter     0.000                               0.000    0.000
+   .ea_book           0.000                               0.000    0.000
+   .pledge_give10     0.000                               0.000    0.000
+   .change_career     0.000                               0.000    0.000
+    expansive         0.000                               0.000    0.000
+    effective         0.000                               0.000    0.000
+   .behavior          0.000                               0.000    0.000
+
+Thresholds:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    ea_newslttr|t1    0.696    0.085    8.159    0.000    0.696    0.696
+    ea_book|t1       -0.160    0.078   -2.046    0.041   -0.160   -0.160
+    pledge_gv10|t1    0.131    0.078    1.674    0.094    0.131    0.131
+    change_carr|t1    0.044    0.078    0.558    0.577    0.044    0.044
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .ea_tttds_scl_1    1.116    0.138    8.066    0.000    1.116    0.514
+   .ea_tttds_scl_2    1.350    0.164    8.249    0.000    1.350    0.607
+   .ea_tttds_scl_3    1.210    0.143    8.439    0.000    1.210    0.479
+   .ea_tttds_scl_4    0.972    0.153    6.358    0.000    0.972    0.382
+   .ea_tttds_scl_5    1.675    0.175    9.574    0.000    1.675    0.671
+   .ea_tttds_scl_7    2.550    0.310    8.214    0.000    2.550    0.818
+   .effctvnss_s_19    1.364    0.156    8.724    0.000    1.364    0.546
+   .effctvnss_sc_4    1.116    0.146    7.621    0.000    1.116    0.478
+   .effctvnss_sc_5    1.725    0.177    9.740    0.000    1.725    0.599
+   .effctvnss_sc_6    1.060    0.151    7.005    0.000    1.060    0.442
+   .effctvnss_s_15    1.004    0.133    7.562    0.000    1.004    0.503
+   .effctvnss_s_18    0.901    0.136    6.643    0.000    0.901    0.388
+   .ea_agreement      1.244    0.139    8.960    0.000    1.244    0.682
+   .ea_interest       1.362    0.164    8.301    0.000    1.362    0.429
+   .ea_newsletter     0.367                               0.367    0.367
+   .ea_book           0.622                               0.622    0.622
+   .pledge_give10     0.513                               0.513    0.513
+   .change_career     0.423                               0.423    0.423
+    expansive         1.056    0.211    4.994    0.000    1.000    1.000
+    effective         1.135    0.259    4.385    0.000    1.000    1.000
+   .behavior          0.288    0.079    3.660    0.000    0.496    0.496
+
+Scales y*:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    ea_newsletter     1.000                               1.000    1.000
+    ea_book           1.000                               1.000    1.000
+    pledge_give10     1.000                               1.000    1.000
+    change_career     1.000                               1.000    1.000
+
+R-Square:
+                   Estimate
+    ea_tttds_scl_1    0.486
+    ea_tttds_scl_2    0.393
+    ea_tttds_scl_3    0.521
+    ea_tttds_scl_4    0.618
+    ea_tttds_scl_5    0.329
+    ea_tttds_scl_7    0.182
+    effctvnss_s_19    0.454
+    effctvnss_sc_4    0.522
+    effctvnss_sc_5    0.401
+    effctvnss_sc_6    0.558
+    effctvnss_s_15    0.497
+    effctvnss_s_18    0.612
+    ea_agreement      0.318
+    ea_interest       0.571
+    ea_newsletter     0.633
+    ea_book           0.378
+    pledge_give10     0.487
+    change_career     0.577
+    behavior          0.504
+
