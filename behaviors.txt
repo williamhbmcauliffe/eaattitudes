@@ -1,0 +1,63 @@
+behaviors
+                    lhs  op                  rhs est.std    se      z pvalue ci.lower ci.upper
+1      Charity_Behavior  =~         donation_std   0.270 0.089  3.023  0.003    0.095    0.445
+2      Charity_Behavior  =~  identifiable_victim   0.258 0.100  2.582  0.010    0.062    0.453
+3      Charity_Behavior  =~ deprioritization_ave   0.499 0.097  5.156  0.000    0.309    0.688
+4      Charity_Behavior  =~ ineffective_donating   0.248 0.090  2.756  0.006    0.072    0.425
+5      Charity_Behavior  =~  equity_vs_effective   0.110 0.084  1.315  0.189   -0.054    0.275
+6      Charity_Behavior  =~       expected_value   0.168 0.123  1.367  0.172   -0.073    0.408
+7      Charity_Behavior  =~            splitting   0.517 0.117  4.423  0.000    0.288    0.746
+8      Charity_Behavior  =~      margin_thinking   0.372 0.121  3.073  0.002    0.135    0.610
+9     Interest_Behavior  =~         ea_agreement   0.482 0.057  8.502  0.000    0.371    0.593
+10    Interest_Behavior  =~          ea_interest   0.788 0.041 19.367  0.000    0.708    0.868
+11    Interest_Behavior  =~        ea_newsletter   0.897 0.050 17.796  0.000    0.798    0.995
+12    Interest_Behavior  =~              ea_book   0.769 0.055 14.097  0.000    0.662    0.876
+13    Interest_Behavior  =~        pledge_give10   0.645 0.064 10.077  0.000    0.519    0.770
+14    Interest_Behavior  =~        change_career   0.574 0.068  8.435  0.000    0.440    0.707
+15       expected_value   |                   t1   0.371 0.080  4.640  0.000    0.214    0.528
+16            splitting   |                   t1   0.330 0.080  4.148  0.000    0.174    0.486
+17      margin_thinking   |                   t1  -0.510 0.082 -6.233  0.000   -0.670   -0.350
+18        ea_newsletter   |                   t1   0.696 0.085  8.159  0.000    0.529    0.863
+19              ea_book   |                   t1  -0.160 0.078 -2.046  0.041   -0.314   -0.007
+20        pledge_give10   |                   t1   0.131 0.078  1.674  0.094   -0.022    0.284
+21        change_career   |                   t1   0.044 0.078  0.558  0.577   -0.109    0.197
+22         donation_std  ~~         donation_std   0.927 0.048 19.258  0.000    0.833    1.022
+23  identifiable_victim  ~~  identifiable_victim   0.934 0.051 18.178  0.000    0.833    1.034
+24 deprioritization_ave  ~~ deprioritization_ave   0.751 0.096  7.790  0.000    0.562    0.940
+25 ineffective_donating  ~~ ineffective_donating   0.938 0.045 21.005  0.000    0.851    1.026
+26  equity_vs_effective  ~~  equity_vs_effective   0.988 0.019 53.193  0.000    0.951    1.024
+27       expected_value  ~~       expected_value   0.972 0.041 23.611  0.000    0.891    1.053
+28            splitting  ~~            splitting   0.733 0.121  6.070  0.000    0.496    0.970
+29      margin_thinking  ~~      margin_thinking   0.861 0.090  9.554  0.000    0.685    1.038
+30         ea_agreement  ~~         ea_agreement   0.768 0.055 14.047  0.000    0.661    0.875
+31          ea_interest  ~~          ea_interest   0.379 0.064  5.901  0.000    0.253    0.504
+32        ea_newsletter  ~~        ea_newsletter   0.196 0.090  2.170  0.030    0.019    0.373
+33              ea_book  ~~              ea_book   0.408 0.084  4.865  0.000    0.244    0.573
+34        pledge_give10  ~~        pledge_give10   0.584 0.083  7.078  0.000    0.422    0.746
+35        change_career  ~~        change_career   0.671 0.078  8.592  0.000    0.518    0.824
+36     Charity_Behavior  ~~     Charity_Behavior   1.000 0.000     NA     NA    1.000    1.000
+37    Interest_Behavior  ~~    Interest_Behavior   1.000 0.000     NA     NA    1.000    1.000
+38     Charity_Behavior  ~~    Interest_Behavior   0.346 0.102  3.380  0.001    0.145    0.546
+39       expected_value ~*~       expected_value   1.000 0.000     NA     NA    1.000    1.000
+40            splitting ~*~            splitting   1.000 0.000     NA     NA    1.000    1.000
+41      margin_thinking ~*~      margin_thinking   1.000 0.000     NA     NA    1.000    1.000
+42        ea_newsletter ~*~        ea_newsletter   1.000 0.000     NA     NA    1.000    1.000
+43              ea_book ~*~              ea_book   1.000 0.000     NA     NA    1.000    1.000
+44        pledge_give10 ~*~        pledge_give10   1.000 0.000     NA     NA    1.000    1.000
+45        change_career ~*~        change_career   1.000 0.000     NA     NA    1.000    1.000
+46         donation_std  ~1                        0.000 0.109  0.000  1.000   -0.214    0.214
+47  identifiable_victim  ~1                        2.409 0.142 16.949  0.000    2.130    2.688
+48 deprioritization_ave  ~1                        2.232 0.145 15.397  0.000    1.948    2.516
+49 ineffective_donating  ~1                        1.819 0.151 12.062  0.000    1.523    2.114
+50  equity_vs_effective  ~1                        2.443 0.147 16.663  0.000    2.156    2.731
+51       expected_value  ~1                        0.000 0.000     NA     NA    0.000    0.000
+52            splitting  ~1                        0.000 0.000     NA     NA    0.000    0.000
+53      margin_thinking  ~1                        0.000 0.000     NA     NA    0.000    0.000
+54         ea_agreement  ~1                        3.559 0.161 22.127  0.000    3.244    3.875
+55          ea_interest  ~1                        2.303 0.139 16.518  0.000    2.029    2.576
+56        ea_newsletter  ~1                        0.000 0.000     NA     NA    0.000    0.000
+57              ea_book  ~1                        0.000 0.000     NA     NA    0.000    0.000
+58        pledge_give10  ~1                        0.000 0.000     NA     NA    0.000    0.000
+59        change_career  ~1                        0.000 0.000     NA     NA    0.000    0.000
+60     Charity_Behavior  ~1                        0.000 0.000     NA     NA    0.000    0.000
+61    Interest_Behavior  ~1                        0.000 0.000     NA     NA    0.000    0.000
